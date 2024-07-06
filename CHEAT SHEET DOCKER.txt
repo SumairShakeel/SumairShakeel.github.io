@@ -1,0 +1,16 @@
+To Start Service in Docker:*************
+systemctl status docker 
+systemctl start docker 
+systemctl stop docker 
+To Start Specific Container *************
+ docker start mycontainer2
+ 1051  docker status mycontainer2
+ 1052  docker exec -it mycontainer2 /bin/bash
+ 1053  docker exec -it mycontainer2 /bin/sh
+ 1054  docker status mycontainer2
+ 1055  docker ps -a
+ 1056  docker stop mycontainer2
+ 1057  docker ps -a
+ 1058  docker start container1
+ 1059  docker exec -it container1 /bin/sh
+
